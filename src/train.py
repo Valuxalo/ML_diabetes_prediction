@@ -2,15 +2,14 @@ import pandas as pd
 import numpy as np
 
 from sklearn.pipeline import Pipeline
-
 from sklearn.ensemble import RandomForestClassifier
 
 RANDOM_STATE=42
 
 def train(processor, X, y):
     random_forest = Pipeline([
-        ("preprocess", processor),
-        ("ranforest", RandomForestClassifier(
+        ("preprocessing", processor),
+        ("model", RandomForestClassifier(
             random_state=RANDOM_STATE,
             n_estimators=100,
             bootstrap=False,
