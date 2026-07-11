@@ -40,11 +40,11 @@ def predict(model, X, y):
 
     root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     with open(f'{root_dir}/artifacts/score.txt', 'w', encoding='utf-8') as f:
-        f.write(f"Accuracy: {recall_score}")
-        f.write(f"Precision: {precision}")
-        f.write(f"Recall: {recall}")
-        f.write(f"F1-score: {f1}")
-        f.write(f"ROC-AUC-score: {roc_auc}")
+        f.write(f"Accuracy: {accuracy}\n")
+        f.write(f"Precision: {precision}\n")
+        f.write(f"Recall: {recall}\n")
+        f.write(f"F1-score: {f1}\n")
+        f.write(f"ROC-AUC-score: {roc_auc}\n")
 
     with open(f'{root_dir}/artifacts/class_report.txt', 'w', encoding='utf-8') as f:
         f.write(class_report)
