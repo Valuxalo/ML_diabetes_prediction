@@ -1,11 +1,7 @@
-matplotlib==3.10.9
-matplotlib-inline==0.2.1
-numpy==2.4.4
-pandas==2.3.3
-plotly==6.7.0
-scikit-learn==1.8.0
-scipy==1.17.1
-seaborn==0.13.2
-shap==0.51.0
 streamlit==1.28.0
+pandas==2.2.3
+numpy==1.26.4
+scikit-learn==1.5.2
 python-dotenv==1.0.0
+matplotlib==3.9.2
+seaborn==0.13.2

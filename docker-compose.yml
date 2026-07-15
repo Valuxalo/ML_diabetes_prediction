@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  streamlit-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: diabetes-predictor
+    ports:
+      - "8501:8501"
+    restart: unless-stopped
