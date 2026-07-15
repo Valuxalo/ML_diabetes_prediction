@@ -1,0 +1,18 @@
+#[theme]
+# Основной цвет акцентов (кнопки, выделения)
+#primaryColor = "#059669"
+# Основной цвет фона приложения
+#backgroundColor = "#F0FDF4"
+# Вторичный цвет фона (для виджетов, выделений)
+#secondaryBackgroundColor = "#ECFDF5"
+# Основной цвет текста
+#textColor = "#064E3B"
+# Шрифт: "monospace", "serif", или "monospace"
+#font = "monospace"
+
+[theme]
+primaryColor="#6a9269ff"
+backgroundColor="#DAD7CD"
+secondaryBackgroundColor="#b9bfaeff"
+textColor="#344E41"
+font = "monospace"
